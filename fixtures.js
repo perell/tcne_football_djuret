@@ -352,7 +352,7 @@
                         <div class="textpush__content"> \
                           <center><a href="'+ appConfig.teamPrefixURL + '/' + team.name + '#' + team.fixtures[0].id +'" target="_self" class="textpush__header">' + team.data.teamName + '<br/> <span style="font-size:10px;color:#999">vs</span> <br/>' + team.fixtures[0].opponent + '</a></center> \
                           <div class="textpush__text-content"> \
-                            <div class="textpush__desktop-content"> \
+                            <div class="textpush__desktop-content">  \
                               <p>' + dateConvert(team.fixtures[0].matchDate, 'DD. MMM') + '</p> \
                             </div> \
                             <div class="textpush__mobile-content"> \

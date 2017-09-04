@@ -338,7 +338,7 @@
                   });
 
                   var nextFixturesHTMLContent = '';
-                  
+
                   $.each(s.teams, function(i, team){
                     nextFixturesHTMLContent += '<div class="col columns-4  push-container" data-area="row:4,area:'+i+'"><div> \
                       <div class="textpush textpush--small "> \
@@ -350,7 +350,7 @@
                           </a> \
                         </div> \
                         <div class="textpush__content"> \
-                          <a href="'+ appConfig.teamPrefixURL + '/' + team.name + '#' + team.fixtures[0].id +'" target="_self" class="textpush__header">' + team.data.teamName + ' vs ' + team.fixtures[0].opponent + '</a> \
+                          <center><a href="'+ appConfig.teamPrefixURL + '/' + team.name + '#' + team.fixtures[0].id +'" target="_self" class="textpush__header">' + team.data.teamName + '<br/> <span style="font-size:10px;color:#999">vs</span> <br/>' + team.fixtures[0].opponent + '</a></center> \
                           <div class="textpush__text-content"> \
                             <div class="textpush__desktop-content"> \
                               <p>' + dateConvert(team.fixtures[0].matchDate, 'DD. MMM') + '</p> \
